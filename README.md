@@ -20,7 +20,7 @@ A simple and interactive To-Do List web application built with HTML, CSS, and Ja
 
 ## 📸 Demo
 
-You can view the live demo of the project [here]("https://naveenkumar-developer.github.io/Todolist/")
+You can view the live demo of the project [here](https://naveenkumar-developer.github.io/Todolist/)
 
 ---
 
