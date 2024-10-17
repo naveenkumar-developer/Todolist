@@ -1,0 +1,122 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background:linear-gradient(135deg, #03045e, #48cae4, #03045e) ; 
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.header_container {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #ee9b00;
+}
+
+.header_container img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.inputAndAddBtn_wrapper {
+    display: flex;
+    background-color: lightgray;
+    margin: 5px ;
+}
+
+.inputAndAddBtn_wrapper input {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.addBtn {
+    padding: 5px 15px;
+    color: whitesmoke;
+    background-color: blue;
+    border: none;
+    outline: none;
+}
+
+.todo_container {
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.todo_container ul {
+    list-style-type: none;
+}
+
+.todo_container ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+    padding: 5px;
+    word-wrap: break-word;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform 0.4s;
+}
+.todo_container ul li:hover{
+    transform: scale(0.99);
+}
+
+ul .completed{
+    text-decoration: line-through;
+}
+
+.todo_container button {
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 40px;
+}
+
+.todo_container .checkIcon {
+    color: whitesmoke;
+    background-color: blue;
+}
+
+.todo_container ul li p {
+    min-width: 280px;
+    flex: 1;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.completed{
+    text-decoration: line-through;
+    color: grey;
+}
+.todo_container .deleteIcon {
+    color: whitesmoke;
+    background-color: red;
+    transition: color 0.4s;
+}
+
+.deleteIcon:hover {
+    color: red;
+    background-color: whitesmoke;
+}
