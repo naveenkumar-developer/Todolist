@@ -2,7 +2,7 @@
 
 A simple and interactive To-Do List web application built with HTML, CSS, and JavaScript. This project allows users to add, mark as completed, and delete tasks. Tasks are saved locally in the browser using localStorage so they remain even after the page reloads.
 
-![demo img](./assets/TODO%20-%20screenshot.png)
+![demo img](./TODO%20-%20screenshot.png)
 
 ## 📁 Features
 - Add new tasks with ease.
