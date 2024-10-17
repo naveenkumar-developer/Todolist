@@ -80,6 +80,7 @@ body {
 
 ul .completed{
     text-decoration: line-through;
+    color:grey;
 }
 
 .todo_container button {
@@ -104,12 +105,8 @@ ul .completed{
     display: flex;
     flex-wrap: wrap;
     cursor: pointer;
-    color: whitesmoke;
 }
-.completed{
-    text-decoration: line-through;
-    color: grey;
-}
+
 .todo_container .deleteIcon {
     color: whitesmoke;
     background-color: red;
